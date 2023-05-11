@@ -17,6 +17,6 @@ found_files = [f for f in os.listdir('.') if re.search(extension, f)]
 print('파일 확장자 찾기:', found_files)
 
 # 패턴으로 파일 찾기
-pattern = r'^image_\d+\.txt$'
+pattern = r'^test_\d+\.txt$'
 found_files = [f for f in os.listdir('.') if re.match(pattern, f)]
 print('패턴으로 파일 찾기:', found_files)
